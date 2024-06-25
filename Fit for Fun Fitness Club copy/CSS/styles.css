@@ -135,3 +135,8 @@ footer {
     width: 100%;
     height: fit-content;
 }
+
+footer a {
+    color: rgb(186, 247, 186);
+    text-decoration: underline;
+}
