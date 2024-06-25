@@ -1,0 +1,86 @@
+<!--
+    Assignment: Fit for Fun Fitness Club
+    Name: Wylder Klein
+    Date: 06/24/2024
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit for Fun Fitness Club</title>
+    <link href="CSS/styles.css" rel="stylesheet" ;>
+</head>
+
+<body>
+    <header>
+        <h1>~ Fit for Fun Fitness Club ~</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="info.html">Info</a></li>
+        </ul>
+    </nav>
+    <h2>Course Sign-Up</h2>
+    <div class="container">
+        <form method="post" action="thankyou.html">
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <label for="fName">First Name:</label>
+                <input type="text" id="fName" name="fName" required placeholder="First Name" /><br><br>
+
+                <label for="lName">Last Name:</label>
+                <input type="text" id="lName" name="lName" required placeholder="Last Name" /><br><br>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required placeholder="E-Mail" /><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="phone" id="phone" name="Phone Number" required placeholder="Phone Number" /><br><br>
+
+            </fieldset>
+
+            <label for="bestContact">Best Way to Contact You:</label>
+            <select id="bestContact" name="bestContact" required>
+                <option value="Tiffany Ford">Phone</option>
+                <option value="Kirsten Markley">E-Mail</option>
+            </select><br><br>
+
+            <label>Class:</label><br>
+            <input type="checkbox" id="class1" name="class1" value="class1">
+            <label for="class1">Cross Training</label>
+            <input type="checkbox" id="class2" name="class2" value="class2">
+            <label for="class2">Sprint</label>
+            <input type="checkbox" id="class3" name="class3" value="class3">
+            <label for="class3">Spin</label>
+            <input type="checkbox" id="class4" name="class4" value="class4">
+            <label for="class4">BodyPump</label>
+            <input type="checkbox" id="class5" name="class5" value="class5">
+            <label for="class5">Step Interval</label><br><br>
+            <input type="checkbox" id="class6" name="class6" value="class6">
+            <label for="class6">Advanced Cross Training</label><br><br>
+            <input type="checkbox" id="class7" name="class7" value="class7">
+            <label for="class7">MixxedFIT</label><br><br>
+
+            <label>Time of Day:</label><br>
+            <input type="radio" id="am" name="timeofDay" value="am" required>
+            <label for="am">AM</label><br>
+            <input type="radio" id="pm" name="timeofDay" value="pm" required>
+            <label for="pm">PM</label><br><br>
+
+            <label for="notes">Additional Notes:</label><br>
+            <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="submit">
+
+        </form>
+    </div>
+</body>
+
+</html>

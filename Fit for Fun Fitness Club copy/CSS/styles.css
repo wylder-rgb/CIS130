@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*
+    Assignment: Fit for Fun Fitness Club
+    Name: Wylder Klein
+    Date: 06/24/2024
+*/
+
+body {
+    border: 26px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+.gallery {
+    margin: 14px auto;
+    max-width: 500px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-variant: small-caps;
+    text-decoration: solid;
+    text-align: center;
+    border: 10px 0;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    padding: 10px 0;
+    ;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(186, 247, 186);
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgb(4, 102, 4);
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: white;
+}
+
+form {
+    margin-left: 10px;
+}
+
+label {
+    display: block;
+    padding-bottom: 6px;
+    position: relative;
+    font-weight: bold;
+}
+
+input {
+    position: absolute;
+    left: 15%;
+    width: 10%;
+}
+
+.submit {
+    width: initial;
+    position: initial;
+}
+
+td:not([colspan]):hover {
+    background-color: rgb(186, 247, 186);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+}
